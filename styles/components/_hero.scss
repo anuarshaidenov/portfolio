@@ -5,6 +5,10 @@
   background-position: 50% 0;
   padding: 3rem 0;
 
+  &__text {
+    text-align: center;
+  }
+
   .container {
     display: flex;
     flex-direction: column;

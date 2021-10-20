@@ -31,11 +31,11 @@ ul {
 
 .heading {
   font-size: 2rem;
-  text-align: center;
   line-height: 2.6rem;
 }
 
-.heading span {
+.heading--subtitle {
+  font-size: 2rem;
   color: #ff6163;
 }
 
@@ -81,6 +81,10 @@ ul {
   background-size: 100%;
   background-position: 50% 0;
   padding: 3rem 0;
+}
+
+.section-hero__text {
+  text-align: center;
 }
 
 .section-hero .container {

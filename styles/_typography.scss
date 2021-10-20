@@ -1,9 +1,9 @@
 .heading {
   font-size: $font-heading;
-  text-align: center;
   line-height: 2.6rem;
 
-  span {
+  &--subtitle {
+    font-size: $font-heading;
     color: $color-primary;
   }
 }
