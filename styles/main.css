@@ -28,4 +28,27 @@ ul {
 .container {
   padding: 0 1.2rem;
 }
+
+.heading {
+  font-size: 2rem;
+  text-align: center;
+  line-height: 2.6rem;
+}
+
+.heading span {
+  color: #ff6163;
+}
+
+.section-heading {
+  font-size: 2rem;
+}
+
+.subheading {
+  font-size: 1.2rem;
+}
+
+.base-text {
+  font-size: 20px;
+  text-align: center;
+}
 /*# sourceMappingURL=main.css.map */
