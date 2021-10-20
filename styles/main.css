@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 20px;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  padding: 0 1.2rem;
+}
+
+.heading {
+  font-size: 2rem;
+  line-height: 2.6rem;
+}
+
+.heading--subtitle {
+  font-size: 2rem;
+  color: #ff6163;
+}
+
+.section-heading {
+  font-size: 2rem;
+}
+
+.subheading {
+  font-size: 1.2rem;
+}
+
+.base-text {
+  font-size: 20px;
+  text-align: center;
+}
+
+.btn-arrow {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.mobile-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0.5rem 0;
+}
+
+.mobile-nav__logo {
+  font-weight: 600;
+}
+
+.section-hero {
+  background-image: url(../images/mobile/header-illsutration-mobile.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: 50% 0;
+  padding: 3rem 0;
+}
+
+.section-hero__text {
+  text-align: center;
+}
+
+.section-hero .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 3rem;
+}
+
+.socials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.socials__item {
+  margin-right: 1rem;
+}
+
+.socials__item:last-of-type {
+  margin-right: 0;
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,22 @@
+.heading {
+  font-size: $font-heading;
+  line-height: 2.6rem;
+
+  &--subtitle {
+    font-size: $font-heading;
+    color: $color-primary;
+  }
+}
+
+.section-heading {
+  font-size: $font-section-heading;
+}
+
+.subheading {
+  font-size: $font-subheading;
+}
+
+.base-text {
+  font-size: $font-base;
+  text-align: center;
+}
