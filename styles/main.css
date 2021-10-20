@@ -68,4 +68,23 @@ ul {
 .mobile-nav__logo {
   font-weight: 600;
 }
+
+.section-hero {
+  background-image: url(../../images/mobile/header-illsutration-mobile.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: 50% 0;
+  padding: 3rem 0;
+}
+
+.section-hero .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 3rem;
+}
 /*# sourceMappingURL=main.css.map */
