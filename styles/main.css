@@ -87,4 +87,24 @@ ul {
           flex-direction: column;
   gap: 3rem;
 }
+
+.socials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.socials__item {
+  margin-right: 1rem;
+}
+
+.socials__item:last-of-type {
+  margin-right: 0;
+}
 /*# sourceMappingURL=main.css.map */
