@@ -10,4 +10,14 @@
   background-color: $color-primary;
   border-radius: 4px;
   padding: 0.6em;
+  cursor: pointer;
+
+  &:hover {
+    background-color: rgba($color-primary, 0.9);
+    box-shadow: 0px 8px 16px rgba(255, 97, 99, 0.24);
+  }
+
+  &:active {
+    background-color: #dd5153;
+  }
 }

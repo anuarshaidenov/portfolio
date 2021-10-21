@@ -89,6 +89,17 @@ ul {
   background-color: #ff6163;
   border-radius: 4px;
   padding: 0.6em;
+  cursor: pointer;
+}
+
+.btn-cta:hover {
+  background-color: rgba(255, 97, 99, 0.9);
+  -webkit-box-shadow: 0px 8px 16px rgba(255, 97, 99, 0.24);
+          box-shadow: 0px 8px 16px rgba(255, 97, 99, 0.24);
+}
+
+.btn-cta:active {
+  background-color: #dd5153;
 }
 
 .mobile-nav {
