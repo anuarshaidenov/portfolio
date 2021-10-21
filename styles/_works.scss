@@ -1,0 +1,15 @@
+.section-works {
+  padding: 1.2rem 0;
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4.5rem;
+  }
+
+  &__projects {
+    display: grid;
+    grid-row-gap: 1.2rem;
+  }
+}

@@ -1,6 +1,7 @@
 .heading {
   font-size: $font-heading;
   line-height: 2.6rem;
+  color: $color-dark;
 
   &--subtitle {
     font-size: $font-heading;
@@ -10,13 +11,32 @@
 
 .section-heading {
   font-size: $font-section-heading;
+  text-align: center;
+  position: relative;
+  color: $color-dark;
+
+  &--underlined {
+    &::after {
+      position: absolute;
+      left: 50%;
+      bottom: -1.2rem;
+      content: "";
+      width: 48px;
+      height: 4px;
+      background-color: $color-primary;
+      transform: translateX(-50%);
+    }
+  }
 }
 
 .subheading {
   font-size: $font-subheading;
+  font-weight: 600;
+  color: $color-dark;
 }
 
 .base-text {
   font-size: $font-base;
   text-align: center;
+  line-height: 30px;
 }
