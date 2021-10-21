@@ -47,10 +47,9 @@ ul {
   font-size: 2rem;
   text-align: center;
   position: relative;
-  margin-bottom: 4.5rem;
 }
 
-.section-heading::after {
+.section-heading--underlined::after {
   position: absolute;
   left: 50%;
   bottom: -1.2rem;
@@ -68,8 +67,9 @@ ul {
 }
 
 .base-text {
-  font-size: 20px;
+  font-size: 1rem;
   text-align: center;
+  line-height: 30px;
 }
 
 .btn-arrow {
@@ -148,6 +148,17 @@ ul {
   margin-right: 0;
 }
 
+.section-works .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 4.5rem;
+}
+
 .section-works__projects {
   display: -ms-grid;
   display: grid;
@@ -201,5 +212,20 @@ ul {
   background-color: #f9eaea;
   padding: 0.5em 0.6em;
   border-radius: 4px;
+}
+
+.section-about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 1.2rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1.5rem 0;
 }
 /*# sourceMappingURL=main.css.map */

@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
 
-$font-base: 20px;
+$font-base: 1rem;
 $font-heading: 2rem;
 $font-section-heading: 2rem;
 $font-subheading: 1.2rem;
@@ -14,7 +14,7 @@ $font-subheading: 1.2rem;
 }
 
 html {
-  font-size: $font-base;
+  font-size: 20px;
 }
 
 body {
