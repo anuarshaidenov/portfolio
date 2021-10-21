@@ -36,6 +36,7 @@ ul {
 .heading {
   font-size: 2rem;
   line-height: 2.6rem;
+  color: #172b4d;
 }
 
 .heading--subtitle {
@@ -47,6 +48,7 @@ ul {
   font-size: 2rem;
   text-align: center;
   position: relative;
+  color: #172b4d;
 }
 
 .section-heading--underlined::after {
@@ -64,6 +66,7 @@ ul {
 .subheading {
   font-size: 1.2rem;
   font-weight: 600;
+  color: #172b4d;
 }
 
 .base-text {
@@ -148,6 +151,10 @@ ul {
   margin-right: 0;
 }
 
+.section-works {
+  padding: 1.2rem 0;
+}
+
 .section-works .container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -162,8 +169,6 @@ ul {
 .section-works__projects {
   display: -ms-grid;
   display: grid;
-  -ms-grid-rows: (1fr)[5];
-      grid-template-rows: repeat(5, 1fr);
   grid-row-gap: 1.2rem;
 }
 
@@ -182,6 +187,7 @@ ul {
   border-radius: 8px;
   background-color: #fff;
   padding: 1.2rem;
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -214,6 +220,37 @@ ul {
   border-radius: 4px;
 }
 
+.card__list-item--skill {
+  background-color: #fff;
+  color: #ff6163;
+}
+
+.card__skills {
+  padding: 1.2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 1.2rem;
+}
+
+.card__icon {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  background-color: #fff;
+  margin: 2rem 0 3rem;
+  display: -ms-grid;
+  display: grid;
+  place-content: center;
+}
+
 .section-about {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -227,5 +264,15 @@ ul {
       -ms-flex-align: center;
           align-items: center;
   padding: 1.5rem 0;
+}
+
+.section-about__skills {
+  margin-top: 1.5rem;
+}
+
+.section-about__skills .container {
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 1.2rem;
 }
 /*# sourceMappingURL=main.css.map */

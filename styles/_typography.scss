@@ -1,6 +1,7 @@
 .heading {
   font-size: $font-heading;
   line-height: 2.6rem;
+  color: $color-dark;
 
   &--subtitle {
     font-size: $font-heading;
@@ -12,6 +13,7 @@
   font-size: $font-section-heading;
   text-align: center;
   position: relative;
+  color: $color-dark;
 
   &--underlined {
     &::after {
@@ -31,6 +33,7 @@
 .subheading {
   font-size: $font-subheading;
   font-weight: 600;
+  color: $color-dark;
 }
 
 .base-text {
