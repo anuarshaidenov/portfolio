@@ -94,8 +94,8 @@ ul {
 
 .btn-cta:hover {
   background-color: rgba(255, 97, 99, 0.9);
-  -webkit-box-shadow: 0px 8px 16px rgba(255, 97, 99, 0.24);
-          box-shadow: 0px 8px 16px rgba(255, 97, 99, 0.24);
+  -webkit-box-shadow: 0 8px 16px rgba(255, 97, 99, 0.24);
+          box-shadow: 0 8px 16px rgba(255, 97, 99, 0.24);
 }
 
 .btn-cta:active {
