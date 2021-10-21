@@ -183,14 +183,6 @@ ul {
 }
 
 .card__portfolio-info {
-  text-align: center;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  border-radius: 8px;
-  background-color: #fff;
-  padding: 1.2rem;
-  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -202,6 +194,14 @@ ul {
       -ms-flex-align: center;
           align-items: center;
   gap: 0.8rem;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-radius: 8px;
+  background-color: #fff;
+  padding: 1.2rem;
+  width: 100%;
 }
 
 .card__list {
@@ -229,7 +229,6 @@ ul {
 }
 
 .card__skills {
-  padding: 1.2rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -241,17 +240,18 @@ ul {
       -ms-flex-align: center;
           align-items: center;
   gap: 1.2rem;
+  padding: 1.2rem;
 }
 
 .card__icon {
+  display: -ms-grid;
+  display: grid;
+  place-content: center;
   width: 4rem;
   height: 4rem;
   border-radius: 50%;
   background-color: #fff;
   margin: 2rem 0 3rem;
-  display: -ms-grid;
-  display: grid;
-  place-content: center;
 }
 
 .section-about {
