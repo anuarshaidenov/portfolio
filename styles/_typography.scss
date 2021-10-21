@@ -10,10 +10,26 @@
 
 .section-heading {
   font-size: $font-section-heading;
+  text-align: center;
+  position: relative;
+  margin-bottom: 4.5rem;
+
+  &::after {
+    position: absolute;
+    left: 50%;
+    bottom: -1.2rem;
+
+    content: "";
+    width: 48px;
+    height: 4px;
+    background-color: $color-primary;
+    transform: translateX(-50%);
+  }
 }
 
 .subheading {
   font-size: $font-subheading;
+  font-weight: 600;
 }
 
 .base-text {
