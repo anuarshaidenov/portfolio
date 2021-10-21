@@ -278,6 +278,10 @@ ul {
       -ms-flex-align: center;
           align-items: center;
   padding: 1.5rem 0;
+  background-image: url(../images/mobile/illustration-about-me-mobile.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 0% 0%;
 }
 
 .section-about__skills {
