@@ -11,5 +11,10 @@
     font-family: inherit;
     border: 1px solid #d0d9d4;
     border-radius: 4px;
+
+    &:focus {
+      outline: none;
+      border: 1px solid $color-primary;
+    }
   }
 }

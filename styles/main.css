@@ -340,6 +340,11 @@ ul {
   border-radius: 4px;
 }
 
+.contact-form__textarea:focus, .contact-form__input:focus {
+  outline: none;
+  border: 1px solid #ff6163;
+}
+
 .section-footer {
   padding: 3rem 0;
 }
