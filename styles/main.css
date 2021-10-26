@@ -326,11 +326,11 @@ ul {
           align-items: center;
 }
 
-.contact-form input {
+.contact-form__textarea, .contact-form__input {
   width: 100%;
-}
-
-.contact-form textarea {
-  width: 100%;
+  padding: 0.5rem;
+  font-family: inherit;
+  border: 1px solid #d0d9d4;
+  border-radius: 4px;
 }
 /*# sourceMappingURL=main.css.map */
