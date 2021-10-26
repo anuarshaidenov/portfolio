@@ -2,26 +2,10 @@
   .container {
     display: flex;
     flex-direction: column;
-    gap: 58px;
+    gap: 3rem;
   }
 
   background-image: url(../images/mobile/illustration-contact-form.svg);
   background-repeat: no-repeat;
   background-position: 100% 100%;
-}
-
-.contact-form {
-  display: flex;
-  flex-direction: column;
-  gap: 1.2rem;
-  align-items: center;
-
-  &__textarea,
-  &__input {
-    width: 100%;
-    padding: 0.5rem;
-    font-family: inherit;
-    border: 1px solid #d0d9d4;
-    border-radius: 4px;
-  }
 }

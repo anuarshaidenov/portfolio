@@ -315,7 +315,7 @@ ul {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  gap: 58px;
+  gap: 3rem;
 }
 
 .contact-form {
