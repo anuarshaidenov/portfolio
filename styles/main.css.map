@@ -7,14 +7,14 @@
         "_base.scss",
         "_typography.scss",
         "components/_buttons.scss",
-        "_header.scss",
-        "_hero.scss",
+        "sections/_header.scss",
+        "sections/_hero.scss",
         "components/_socials.scss",
-        "_works.scss",
+        "sections/_works.scss",
         "components/_card.scss",
-        "_about.scss",
-        "_contact.scss",
-        "_footer.scss"
+        "sections/_about.scss",
+        "sections/_contact.scss",
+        "sections/_footer.scss"
     ],
     "names": [],
     "file": "main.css"
