@@ -2,9 +2,12 @@
 @import "base";
 @import "typography";
 @import "components/buttons";
-@import "header";
-@import "hero";
+@import "sections/header";
+@import "sections/hero";
 @import "components/socials";
-@import "works";
+@import "sections/works";
 @import "components/card";
-@import "about";
+@import "sections/about";
+@import "sections/contact";
+@import "components/contact-form";
+@import "sections/footer";

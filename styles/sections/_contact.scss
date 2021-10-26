@@ -1,0 +1,12 @@
+.section-contact {
+  background-image: url(../images/mobile/illustration-contact-form.svg);
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  padding: 1.2rem 0;
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+  }
+}

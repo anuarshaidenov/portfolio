@@ -11,6 +11,7 @@
   border-radius: 4px;
   padding: 0.6em;
   cursor: pointer;
+  text-transform: capitalize;
 
   &:hover {
     background-color: rgba($color-primary, 0.9);

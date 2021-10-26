@@ -1,0 +1,20 @@
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  align-items: center;
+
+  &__textarea,
+  &__input {
+    width: 100%;
+    padding: 0.5rem;
+    font-family: inherit;
+    border: 1px solid #d0d9d4;
+    border-radius: 4px;
+
+    &:focus {
+      outline: none;
+      border: 1px solid $color-primary;
+    }
+  }
+}
