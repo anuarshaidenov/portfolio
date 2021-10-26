@@ -1,0 +1,21 @@
+.section-contact {
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 58px;
+  }
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  align-items: center;
+  input {
+    width: 100%;
+  }
+
+  textarea {
+    width: 100%;
+  }
+}
