@@ -40,3 +40,10 @@
   text-align: center;
   line-height: 30px;
 }
+
+.text-bold {
+  font-size: $font-heading;
+  font-weight: 700;
+  color: $color-dark;
+  text-align: center;
+}
