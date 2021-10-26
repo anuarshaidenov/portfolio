@@ -131,7 +131,7 @@ ul {
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: 50% 0;
-  padding: 3rem 0;
+  padding: 3rem 0 1.2rem;
 }
 
 .section-hero__text {
@@ -305,6 +305,7 @@ ul {
   background-image: url(../images/mobile/illustration-contact-form.svg);
   background-repeat: no-repeat;
   background-position: 100% 100%;
+  padding: 1.2rem 0;
 }
 
 .section-contact .container {
@@ -346,7 +347,7 @@ ul {
 }
 
 .section-footer {
-  padding: 3rem 0;
+  padding: 1.2rem 0 5rem;
 }
 
 .section-footer__socials {
