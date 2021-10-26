@@ -301,6 +301,12 @@ ul {
   grid-gap: 1.2rem;
 }
 
+.section-contact {
+  background-image: url(../images/mobile/illustration-contact-form.svg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
 .section-contact .container {
   display: -webkit-box;
   display: -ms-flexbox;
