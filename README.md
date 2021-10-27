@@ -37,7 +37,9 @@ cd portfolio
 
 3. You now have the access to the files on your local machine!
 
-### Optional step
+
+
+#### Optional steps
 
 Install the node_modules/ folder to be able to locally run the linter commands. Run:
 
