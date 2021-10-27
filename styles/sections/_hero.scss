@@ -6,10 +6,13 @@
   padding: 6rem 0 1.2rem;
 
   @media (min-width: 700px) {
-    background-image: url(../images/desktop/header-llustration-desktop.svg);
     background-position: 100% 0%;
     padding-top: 9rem;
     min-height: 80vh;
+  }
+
+  @media (min-width: 900px) {
+    background-image: url(../images/desktop/header-llustration-desktop.svg);
   }
 
   @media (min-width: 1200px) {

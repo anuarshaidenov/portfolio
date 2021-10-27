@@ -196,10 +196,15 @@ ul {
 
 @media (min-width: 700px) {
   .section-hero {
-    background-image: url(../images/desktop/header-llustration-desktop.svg);
     background-position: 100% 0%;
     padding-top: 9rem;
     min-height: 80vh;
+  }
+}
+
+@media (min-width: 900px) {
+  .section-hero {
+    background-image: url(../images/desktop/header-llustration-desktop.svg);
   }
 }
 
