@@ -2,6 +2,7 @@
 
 $font-base: 1rem;
 $font-heading: 2rem;
+$font-heading--big: 2.6rem;
 $font-section-heading: 2rem;
 $font-subheading: 1.2rem;
 
@@ -35,5 +36,11 @@ ul {
 }
 
 .container {
-  padding: 0 1.2rem;
+  width: 90%;
+  max-width: 1140px;
+  margin: 0 auto;
+
+  &--small {
+    max-width: 900px;
+  }
 }

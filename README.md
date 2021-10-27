@@ -1,6 +1,6 @@
 # Portfolio
 
-> This is the first iteration of the mobile version of my portfolio.
+> This is my responsive portfolio website.
 
 ![screenshot](./screenshot.png)
 
@@ -10,11 +10,16 @@
 - Flexbox to place elements in the page.
 - Build a personal portfolio site.
 - Use images and backgrounds to enhance the look of the website.
+- Understand how to create UIs adaptable to different screen sizes using media queries.
 
 ## Built With
 
 - HTML
 - SCSS
+
+## Live Demo
+
+[Live Demo Link](https://anuarshaidenov.github.io/portfolio/)
 
 ## Installation
 
@@ -30,7 +35,7 @@ git clone https://github.com/anuarshaidenov/portfolio.git
 cd portfolio
 ```
 
-3. You now have the access to the files
+3. You now have the access to the files on your local machine!
 
 ## Author
 

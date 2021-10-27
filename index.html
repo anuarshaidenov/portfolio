@@ -18,6 +18,13 @@
             class="mobile-nav__hamburger"
           />
         </nav>
+        <nav class="desktop-nav">
+          <ul class="desktop-nav__list">
+            <li class="desktop-nav__el"><a href="#">Portfolio</a></li>
+            <li class="desktop-nav__el"><a href="#">About</a></li>
+            <li class="desktop-nav__el"><a href="#">Contact</a></li>
+          </ul>
+        </nav>
       </div>
     </header>
     <main class="main">
@@ -27,12 +34,14 @@
             <h1 class="heading">Hey there. I'm Anuar</h1>
             <h2 class="heading--subtitle">I'm a software developer</h2>
           </div>
-          <p class="base-text">
-            I can help you build a product, feature or website. Look through
-            some of my work and experience! If you like what you see and have a
-            project you need coded, don’t hestiate to contact me.
-          </p>
-          <ul class="socials">
+          <div class="container container--small">
+            <p class="base-text section-hero__description">
+              I can help you build a product, feature or website. Look through
+              some of my work and experience! If you like what you see and have
+              a project you need coded, don’t hestiate to contact me.
+            </p>
+          </div>
+          <ul class="socials section-hero__socials">
             <li class="socials__item">
               <a href="#" class="socials__link"
                 ><img src="images/twitter.svg" alt=""
@@ -62,7 +71,7 @@
           <img
             src="images/button-arrow.svg"
             alt="Arrow down"
-            class="btn-arrow"
+            class="btn-arrow section-hero__arrow"
           />
         </div>
       </section>
@@ -157,17 +166,36 @@
                 <button class="btn-cta" type="button">See Project</button>
               </div>
             </div>
+            <div class="card">
+              <img
+                src="images/card-placeholder.png"
+                alt="Portfolio image"
+                class="card__portfolio-img"
+              />
+              <div class="card__portfolio-info">
+                <h3 class="subheading">Multi-Post Stories Gain+Glory</h3>
+                <ul class="card__list">
+                  <li class="card__list-item">Ruby on Rails</li>
+                  <li class="card__list-item">css</li>
+                  <li class="card__list-item">JavaScript</li>
+                  <li class="card__list-item">HTML</li>
+                </ul>
+                <button class="btn-cta" type="button">See Project</button>
+              </div>
+            </div>
           </div>
         </div>
       </section>
 
       <section class="section-about">
         <h2 class="section-heading">About me</h2>
-        <p class="base-text">
-          I can help you build a product, feature or website Look through some
-          of my work and experience! If you like what you see and have a project
-          you need coded, don’t hestiate to contact me.
-        </p>
+        <div class="container container--small">
+          <p class="base-text">
+            I can help you build a product, feature or website Look through some
+            of my work and experience! If you like what you see and have a
+            project you need coded, don’t hestiate to contact me.
+          </p>
+        </div>
         <button class="btn-cta" type="button">Get My Resume</button>
 
         <div class="section-about__skills">
@@ -243,14 +271,14 @@
 
       <section class="section-contact">
         <div class="container">
-          <h2 class="section-heading">
+          <h2 class="section-heading section-contact__heading">
             I'm always interested in hearing about new projects, so if you'd
             like to chat please get in touch.
           </h2>
           <form
             action="https://formspree.io/f/mwkajyvy"
             method="post"
-            class="contact-form"
+            class="contact-form section-contact__form"
           >
             <input
               type="text"

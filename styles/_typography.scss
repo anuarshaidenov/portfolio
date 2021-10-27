@@ -3,9 +3,18 @@
   line-height: 2.6rem;
   color: $color-dark;
 
+  @media (min-width: 700px) {
+    font-size: $font-heading--big;
+    line-height: 3rem;
+  }
+
   &--subtitle {
     font-size: $font-heading;
     color: $color-primary;
+
+    @media (min-width: 700px) {
+      font-size: $font-heading--big;
+    }
   }
 }
 
@@ -16,6 +25,12 @@
   color: $color-dark;
 
   &--underlined {
+    @media (min-width: 1024px) {
+      &::after {
+        display: none;
+      }
+    }
+
     &::after {
       position: absolute;
       left: 50%;
