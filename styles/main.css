@@ -191,13 +191,12 @@ ul {
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: 100% 55px;
-  padding: 6rem 0 1.2rem;
+  padding: 25vh 0;
 }
 
 @media (min-width: 700px) {
   .section-hero {
     background-position: 100% 0%;
-    padding-top: 9rem;
     min-height: 80vh;
   }
 }
