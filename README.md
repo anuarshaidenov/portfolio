@@ -16,6 +16,10 @@
 - HTML
 - SCSS
 
+## Live Demo
+
+[Live Demo Link](https://anuarshaidenov.github.io/portfolio/)
+
 ## Installation
 
 1. Clone the repository using
