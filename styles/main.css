@@ -455,6 +455,7 @@ ul {
   .section-contact__heading {
     font-size: 1.5rem;
     width: 45%;
+    text-align: left;
   }
 }
 
