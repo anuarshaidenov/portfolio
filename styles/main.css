@@ -181,6 +181,10 @@ ul {
   margin-right: 1.2rem;
 }
 
+.desktop-nav__el:last-of-type {
+  margin-right: 0;
+}
+
 .section-hero {
   background-image: url(../images/mobile/header-illsutration-mobile.svg);
   background-repeat: no-repeat;
@@ -257,6 +261,12 @@ ul {
 
 .section-works {
   padding: 1.2rem 0;
+}
+
+@media (min-width: 750px) {
+  .section-works {
+    padding: 0 0 4.75;
+  }
 }
 
 .section-works .container {
@@ -395,6 +405,12 @@ ul {
   background-position: 100% -2%;
 }
 
+@media (min-width: 750px) {
+  .section-about {
+    padding: 4.75rem 0;
+  }
+}
+
 @media (min-width: 700px) {
   .section-about {
     background-image: url(../images/desktop/illustration-abou-me.svg);
@@ -426,6 +442,31 @@ ul {
   padding: 1.2rem 0;
 }
 
+@media (min-width: 700px) {
+  .section-contact {
+    background-image: url(../images/desktop/illustration-contact.svg);
+    background-position: 50% 100%;
+    background-size: contain;
+    padding: 4.75rem 0 12rem;
+  }
+}
+
+@media (min-width: 750px) {
+  .section-contact__heading {
+    font-size: 1.5rem;
+    width: 45%;
+  }
+}
+
+@media (min-width: 750px) {
+  .section-contact__form {
+    width: 55%;
+    -webkit-box-align: start !important;
+        -ms-flex-align: start !important;
+            align-items: flex-start !important;
+  }
+}
+
 .section-contact .container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -435,6 +476,16 @@ ul {
       -ms-flex-direction: column;
           flex-direction: column;
   gap: 3rem;
+}
+
+@media (min-width: 750px) {
+  .section-contact .container {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    gap: 1.2rem;
+  }
 }
 
 .contact-form {
@@ -466,6 +517,12 @@ ul {
 
 .section-footer {
   padding: 1.2rem 0 5rem;
+}
+
+@media (min-width: 750px) {
+  .section-footer {
+    padding: 1.2rem 0;
+  }
 }
 
 .section-footer__socials {
