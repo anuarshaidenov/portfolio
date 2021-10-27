@@ -1,6 +1,6 @@
 # Portfolio
 
-> Check out my responsive portfolio website.
+> This is my responsive portfolio website.
 
 ![screenshot](./screenshot.png)
 
