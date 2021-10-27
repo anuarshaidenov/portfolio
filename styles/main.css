@@ -105,6 +105,10 @@ ul {
   background-color: #dd5153;
 }
 
+.header {
+  padding: 1.2rem 0;
+}
+
 .mobile-nav {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -115,7 +119,6 @@ ul {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 0.5rem 0;
 }
 
 @media (min-width: 700px) {

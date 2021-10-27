@@ -1,8 +1,11 @@
+.header {
+  padding: 1.2rem 0;
+}
+
 .mobile-nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0.5rem 0;
 
   @media (min-width: 700px) {
     display: none;
