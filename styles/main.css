@@ -199,7 +199,13 @@ ul {
     background-image: url(../images/desktop/header-llustration-desktop.svg);
     background-position: 100% 0%;
     padding-top: 9rem;
-    height: 130vh;
+    min-height: 80vh;
+  }
+}
+
+@media (min-width: 1200px) {
+  .section-hero {
+    min-height: 120vh;
   }
 }
 
