@@ -176,6 +176,7 @@ ul {
       -ms-flex-pack: center;
           justify-content: center;
   color: #172b4d;
+  font-size: 0.8rem;
 }
 
 .desktop-nav__el {
