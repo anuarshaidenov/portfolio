@@ -1,6 +1,6 @@
 # Portfolio
 
-> This is the first iteration of the mobile version of my portfolio.
+> Check out my responsive portfolio website.
 
 ![screenshot](./screenshot.png)
 
@@ -34,7 +34,7 @@ git clone https://github.com/anuarshaidenov/portfolio.git
 cd portfolio
 ```
 
-3. You now have the access to the files
+3. You now have the access to the files on your local machine!
 
 ## Author
 
