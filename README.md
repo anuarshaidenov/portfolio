@@ -10,6 +10,7 @@
 - Flexbox to place elements in the page.
 - Build a personal portfolio site.
 - Use images and backgrounds to enhance the look of the website.
+- Understand how to create UIs adaptable to different screen sizes using media queries.
 
 ## Built With
 
