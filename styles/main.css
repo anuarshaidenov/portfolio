@@ -190,7 +190,7 @@ ul {
   background-image: url(../images/mobile/header-illsutration-mobile.svg);
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  background-position: 100% 55px;
+  background-position: 100% -25px;
   padding: 25vh 0 1.2rem;
 }
 
