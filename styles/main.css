@@ -175,6 +175,7 @@ ul {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  font-weight: 600;
 }
 
 .desktop-nav__el {
