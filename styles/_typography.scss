@@ -16,6 +16,12 @@
   color: $color-dark;
 
   &--underlined {
+    @media (min-width: 1024px) {
+      &::after {
+        display: none;
+      }
+    }
+
     &::after {
       position: absolute;
       left: 50%;

@@ -57,6 +57,12 @@ ul {
   color: #172b4d;
 }
 
+@media (min-width: 1024px) {
+  .section-heading--underlined::after {
+    display: none;
+  }
+}
+
 .section-heading--underlined::after {
   position: absolute;
   left: 50%;
@@ -217,6 +223,12 @@ ul {
       -ms-flex-align: center;
           align-items: center;
   gap: 4.5rem;
+}
+
+@media (min-width: 1024px) {
+  .section-works .container {
+    gap: 2.6rem;
+  }
 }
 
 .section-works__projects {
