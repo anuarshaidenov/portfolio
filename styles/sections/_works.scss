@@ -9,7 +9,12 @@
   }
 
   &__projects {
+    width: 100%;
     display: grid;
-    grid-row-gap: 1.2rem;
+    grid-gap: 1.2rem;
+
+    @media (min-width: 600px) {
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    }
   }
 }

@@ -75,13 +75,6 @@ ul {
   line-height: 30px;
 }
 
-.text-bold {
-  font-size: 2rem;
-  font-weight: 700;
-  color: #172b4d;
-  text-align: center;
-}
-
 .btn-arrow {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
@@ -189,9 +182,12 @@ ul {
 }
 
 .section-works__projects {
+  width: 100%;
   display: -ms-grid;
   display: grid;
-  grid-row-gap: 1.2rem;
+  grid-gap: 1.2rem;
+  -ms-grid-columns: (minmax(300px, 1fr))[auto-fill];
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 }
 
 .card {
@@ -199,6 +195,10 @@ ul {
   border: 1px solid #c1c7d0;
   border-radius: 8px;
   position: relative;
+}
+
+.card__portfolio-img {
+  width: 100%;
 }
 
 .card__portfolio-info {
