@@ -9,6 +9,10 @@
   background-size: contain;
   background-position: 100% -2%;
 
+  @media (min-width: 700px) {
+    background-image: url(../images/desktop/illustration-abou-me.svg);
+  }
+
   &__skills {
     margin-top: 1.5rem;
     width: 100%;

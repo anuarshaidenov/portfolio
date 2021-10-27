@@ -347,6 +347,12 @@ ul {
   background-position: 100% -2%;
 }
 
+@media (min-width: 700px) {
+  .section-about {
+    background-image: url(../images/desktop/illustration-abou-me.svg);
+  }
+}
+
 .section-about__skills {
   margin-top: 1.5rem;
   width: 100%;
