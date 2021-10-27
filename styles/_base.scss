@@ -38,4 +38,8 @@ ul {
   width: 90%;
   max-width: 1140px;
   margin: 0 auto;
+
+  &--small {
+    max-width: 900px;
+  }
 }

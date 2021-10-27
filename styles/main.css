@@ -35,6 +35,10 @@ ul {
   margin: 0 auto;
 }
 
+.container--small {
+  max-width: 900px;
+}
+
 .heading {
   font-size: 2rem;
   line-height: 2.6rem;
