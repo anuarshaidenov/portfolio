@@ -2,16 +2,41 @@
   background-image: url(../images/mobile/header-illsutration-mobile.svg);
   background-repeat: no-repeat;
   background-size: 100%;
-  background-position: 50% 0;
-  padding: 3rem 0 1.2rem;
+  background-position: 100% 55px;
+  padding: 6rem 0 1.2rem;
+
+  @media (min-width: 700px) {
+    background-image: url(../images/desktop/header-llustration-desktop.svg);
+    background-position: 100% 0%;
+    padding-top: 9rem;
+    height: 130vh;
+  }
 
   &__text {
     text-align: center;
+
+    @media (min-width: 700px) {
+      margin-bottom: 1.7rem;
+    }
+  }
+
+  &__description {
+    @media (min-width: 700px) {
+      margin-bottom: 1.2rem;
+    }
+  }
+
+  &__socials {
+    margin-bottom: 4.2rem;
   }
 
   .container {
     display: flex;
     flex-direction: column;
     gap: 3rem;
+
+    @media (min-width: 700px) {
+      gap: 0;
+    }
   }
 }
