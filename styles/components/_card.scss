@@ -4,6 +4,10 @@
   border-radius: 8px;
   position: relative;
 
+  &__portfolio-img {
+    width: 100%;
+  }
+
   &__portfolio-info {
     display: flex;
     flex-direction: column;
