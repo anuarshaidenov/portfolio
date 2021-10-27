@@ -16,6 +16,10 @@
     .container {
       display: grid;
       grid-gap: 1.2rem;
+
+      @media (min-width: 750px) {
+        grid-template-columns: repeat(3, 1fr);
+      }
     }
   }
 }

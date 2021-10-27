@@ -310,6 +310,13 @@ ul {
   grid-gap: 1.2rem;
 }
 
+@media (min-width: 750px) {
+  .section-about__skills .container {
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
+  }
+}
+
 .section-contact {
   background-image: url(../images/mobile/illustration-contact-form.svg);
   background-repeat: no-repeat;
