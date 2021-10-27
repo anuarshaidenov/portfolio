@@ -30,7 +30,9 @@ ul {
 }
 
 .container {
-  padding: 0 1.2rem;
+  width: 90%;
+  max-width: 1140px;
+  margin: 0 auto;
 }
 
 .heading {
@@ -186,8 +188,13 @@ ul {
   display: -ms-grid;
   display: grid;
   grid-gap: 1.2rem;
-  -ms-grid-columns: (minmax(300px, 1fr))[auto-fill];
-      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+
+@media (min-width: 600px) {
+  .section-works__projects {
+    -ms-grid-columns: (minmax(300px, 1fr))[auto-fill];
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  }
 }
 
 .card {
@@ -294,6 +301,7 @@ ul {
 
 .section-about__skills {
   margin-top: 1.5rem;
+  width: 100%;
 }
 
 .section-about__skills .container {
