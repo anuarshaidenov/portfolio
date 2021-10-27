@@ -118,8 +118,37 @@ ul {
   padding: 0.5rem 0;
 }
 
+@media (min-width: 700px) {
+  .mobile-nav {
+    display: none;
+  }
+}
+
 .mobile-nav__logo {
   font-weight: 600;
+}
+
+.desktop-nav {
+  display: none;
+}
+
+@media (min-width: 700px) {
+  .desktop-nav {
+    display: block;
+  }
+}
+
+.desktop-nav__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.desktop-nav__el {
+  margin-right: 1.2rem;
 }
 
 .section-hero {
