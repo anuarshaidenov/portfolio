@@ -20,13 +20,13 @@
   }
 
   &__form {
-    &__input::placeholder,
-    &__textarea::placeholder {
+    input::placeholder,
+    textarea::placeholder {
       transition: all 0.2s;
     }
 
-    &__input:hover,
-    &__textarea:hover {
+    input:hover,
+    textarea:hover {
       &::placeholder {
         transform: translateX(3px);
       }
