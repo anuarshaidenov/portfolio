@@ -498,6 +498,44 @@ ul {
   }
 }
 
+.section-contact__form__input::-webkit-input-placeholder, .section-contact__form__textarea::-webkit-input-placeholder {
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.section-contact__form__input:-ms-input-placeholder, .section-contact__form__textarea:-ms-input-placeholder {
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.section-contact__form__input::-ms-input-placeholder, .section-contact__form__textarea::-ms-input-placeholder {
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.section-contact__form__input::placeholder, .section-contact__form__textarea::placeholder {
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.section-contact__form__input:hover::-webkit-input-placeholder, .section-contact__form__textarea:hover::-webkit-input-placeholder {
+  -webkit-transform: translateX(3px);
+          transform: translateX(3px);
+}
+
+.section-contact__form__input:hover:-ms-input-placeholder, .section-contact__form__textarea:hover:-ms-input-placeholder {
+  transform: translateX(3px);
+}
+
+.section-contact__form__input:hover::-ms-input-placeholder, .section-contact__form__textarea:hover::-ms-input-placeholder {
+  transform: translateX(3px);
+}
+
+.section-contact__form__input:hover::placeholder, .section-contact__form__textarea:hover::placeholder {
+  -webkit-transform: translateX(3px);
+          transform: translateX(3px);
+}
+
 @media (min-width: 750px) {
   .section-contact__form {
     width: 55%;
@@ -505,44 +543,6 @@ ul {
         -ms-flex-align: start !important;
             align-items: flex-start !important;
   }
-}
-
-.section-contact__form input::-webkit-input-placeholder, .section-contact__form textarea::-webkit-input-placeholder {
-  -webkit-transition: all 0.2s;
-  transition: all 0.2s;
-}
-
-.section-contact__form input:-ms-input-placeholder, .section-contact__form textarea:-ms-input-placeholder {
-  -webkit-transition: all 0.2s;
-  transition: all 0.2s;
-}
-
-.section-contact__form input::-ms-input-placeholder, .section-contact__form textarea::-ms-input-placeholder {
-  -webkit-transition: all 0.2s;
-  transition: all 0.2s;
-}
-
-.section-contact__form input::placeholder, .section-contact__form textarea::placeholder {
-  -webkit-transition: all 0.2s;
-  transition: all 0.2s;
-}
-
-.section-contact__form input:hover::-webkit-input-placeholder, .section-contact__form textarea:hover::-webkit-input-placeholder {
-  -webkit-transform: translateX(3px);
-          transform: translateX(3px);
-}
-
-.section-contact__form input:hover:-ms-input-placeholder, .section-contact__form textarea:hover:-ms-input-placeholder {
-  transform: translateX(3px);
-}
-
-.section-contact__form input:hover::-ms-input-placeholder, .section-contact__form textarea:hover::-ms-input-placeholder {
-  transform: translateX(3px);
-}
-
-.section-contact__form input:hover::placeholder, .section-contact__form textarea:hover::placeholder {
-  -webkit-transform: translateX(3px);
-          transform: translateX(3px);
 }
 
 .section-contact .container {
