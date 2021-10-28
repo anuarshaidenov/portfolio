@@ -116,16 +116,22 @@ ul {
   padding: 0.6em;
   cursor: pointer;
   text-transform: capitalize;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
 }
 
 .btn-cta:hover {
   background-color: rgba(255, 97, 99, 0.9);
   -webkit-box-shadow: 0 8px 16px rgba(255, 97, 99, 0.24);
           box-shadow: 0 8px 16px rgba(255, 97, 99, 0.24);
+  -webkit-transform: translateY(-1px);
+          transform: translateY(-1px);
 }
 
 .btn-cta:active {
   background-color: #dd5153;
+  -webkit-transform: translateY(1px);
+          transform: translateY(1px);
 }
 
 .header {
