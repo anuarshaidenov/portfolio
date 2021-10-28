@@ -1,4 +1,33 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+@-webkit-keyframes bounce {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  50% {
+    -webkit-transform: translateY(7px);
+            transform: translateY(7px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+@keyframes bounce {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  50% {
+    -webkit-transform: translateY(7px);
+            transform: translateY(7px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
 *,
 *::after,
 *::before {
@@ -23,6 +52,25 @@ img {
 a {
   text-decoration: none;
   color: inherit;
+  position: relative;
+}
+
+a::after {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 2px;
+  background-color: #ff6163;
+  bottom: -5px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+a:hover::after {
+  width: 80%;
 }
 
 ul {
@@ -104,6 +152,8 @@ ul {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
+  -webkit-animation: bounce 1.5s infinite;
+          animation: bounce 1.5s infinite;
 }
 
 .btn-cta {
@@ -116,16 +166,22 @@ ul {
   padding: 0.6em;
   cursor: pointer;
   text-transform: capitalize;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
 }
 
 .btn-cta:hover {
   background-color: rgba(255, 97, 99, 0.9);
   -webkit-box-shadow: 0 8px 16px rgba(255, 97, 99, 0.24);
           box-shadow: 0 8px 16px rgba(255, 97, 99, 0.24);
+  -webkit-transform: translateY(-1px);
+          transform: translateY(-1px);
 }
 
 .btn-cta:active {
   background-color: #dd5153;
+  -webkit-transform: translateY(1px);
+          transform: translateY(1px);
 }
 
 .header {
@@ -471,6 +527,52 @@ ul {
     width: 45%;
     text-align: left;
   }
+}
+
+.section-contact__form input::-webkit-input-placeholder,
+.section-contact__form textarea::-webkit-input-placeholder {
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.section-contact__form input:-ms-input-placeholder,
+.section-contact__form textarea:-ms-input-placeholder {
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.section-contact__form input::-ms-input-placeholder,
+.section-contact__form textarea::-ms-input-placeholder {
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.section-contact__form input::placeholder,
+.section-contact__form textarea::placeholder {
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.section-contact__form input:hover::-webkit-input-placeholder,
+.section-contact__form textarea:hover::-webkit-input-placeholder {
+  -webkit-transform: translateX(3px);
+          transform: translateX(3px);
+}
+
+.section-contact__form input:hover:-ms-input-placeholder,
+.section-contact__form textarea:hover:-ms-input-placeholder {
+  transform: translateX(3px);
+}
+
+.section-contact__form input:hover::-ms-input-placeholder,
+.section-contact__form textarea:hover::-ms-input-placeholder {
+  transform: translateX(3px);
+}
+
+.section-contact__form input:hover::placeholder,
+.section-contact__form textarea:hover::placeholder {
+  -webkit-transform: translateX(3px);
+          transform: translateX(3px);
 }
 
 @media (min-width: 750px) {

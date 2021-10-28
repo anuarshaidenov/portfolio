@@ -29,6 +29,25 @@ img {
 a {
   text-decoration: none;
   color: inherit;
+  position: relative;
+
+  &::after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 2px;
+    background-color: $color-primary;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: all 0.3s;
+  }
+
+  &:hover {
+    &::after {
+      width: 80%;
+    }
+  }
 }
 
 ul {

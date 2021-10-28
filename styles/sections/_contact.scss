@@ -20,6 +20,18 @@
   }
 
   &__form {
+    input::placeholder,
+    textarea::placeholder {
+      transition: all 0.2s;
+    }
+
+    input:hover,
+    textarea:hover {
+      &::placeholder {
+        transform: translateX(3px);
+      }
+    }
+
     @media (min-width: 750px) {
       width: 55%;
       align-items: flex-start !important;
