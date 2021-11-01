@@ -17,9 +17,6 @@
 - HTML
 - SCSS
 
-## Live Demo
-
-[Live Demo Link](https://anuarshaidenov.github.io/portfolio/)
 
 ## Installation
 
@@ -37,6 +34,8 @@ cd portfolio
 
 3. You now have the access to the files on your local machine!
 
+
+
 #### Optional steps
 
 Install the node_modules/ folder to be able to locally run the linter commands. Run:
@@ -44,13 +43,11 @@ Install the node_modules/ folder to be able to locally run the linter commands. 
 ```
 npm install
 ```
-
 To check Webhint linter errors run:
 
 ```
 npx hint .
 ```
-
 To check Stylelint linter errors run:
 
 ```
