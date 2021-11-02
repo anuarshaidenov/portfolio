@@ -630,6 +630,7 @@ ul {
 .contact-form__textarea:focus, .contact-form__input:focus {
   outline: none;
   border: 1px solid #ff6163;
+  background-color: rgba(249, 234, 234, 0.3);
 }
 
 .section-footer {
