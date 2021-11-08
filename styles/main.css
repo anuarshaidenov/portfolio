@@ -87,6 +87,10 @@ ul {
   max-width: 900px;
 }
 
+.hidden {
+  display: none !important;
+}
+
 .heading {
   font-size: 2rem;
   line-height: 2.6rem;
@@ -212,6 +216,34 @@ ul {
 
 .mobile-nav__logo {
   font-weight: 600;
+}
+
+.mobile-nav__close {
+  z-index: 5;
+}
+
+.mobile-nav__list {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 4;
+  width: 100vw;
+  height: 100vh;
+  background-color: #fff;
+  padding-top: 5rem;
+  padding-left: 1.4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 2rem;
+}
+
+.mobile-nav__list a {
+  font-size: 1.5rem;
 }
 
 .desktop-nav {
