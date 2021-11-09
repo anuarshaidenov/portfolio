@@ -1,0 +1,18 @@
+.tech-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: center;
+
+  &__item {
+    font-size: 0.6rem;
+    background-color: $color-secondary-light;
+    padding: 0.5em 0.6em;
+    border-radius: 4px;
+
+    &--skill {
+      background-color: $color-white;
+      color: $color-primary;
+    }
+  }
+}
