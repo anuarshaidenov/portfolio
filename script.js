@@ -6,13 +6,13 @@ const links = document.querySelectorAll('.mobile-nav__el a');
 const openMenu = function () {
   btnHamburger.classList.add('hidden');
   btnClose.classList.remove('hidden');
-  menu.classList.remove('hidden');
+  menu.classList.remove('translated');
 };
 
 const closeMenu = function () {
   btnClose.classList.add('hidden');
   btnHamburger.classList.remove('hidden');
-  menu.classList.add('hidden');
+  menu.classList.add('translated');
 };
 
 btnHamburger.addEventListener('click', openMenu);
