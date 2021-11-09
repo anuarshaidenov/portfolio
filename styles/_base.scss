@@ -65,5 +65,9 @@ ul {
 }
 
 .hidden {
-  display: none !important;
+  display: none;
+}
+
+.translated {
+  transform: translateX(150%);
 }

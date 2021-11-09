@@ -88,7 +88,12 @@ ul {
 }
 
 .hidden {
-  display: none !important;
+  display: none;
+}
+
+.translated {
+  -webkit-transform: translateX(150%);
+          transform: translateX(150%);
 }
 
 .heading {
@@ -240,6 +245,10 @@ ul {
       -ms-flex-direction: column;
           flex-direction: column;
   gap: 2rem;
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+  transition: transform 0.3s, -webkit-transform 0.3s;
 }
 
 .mobile-nav__list a {
