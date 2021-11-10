@@ -18,4 +18,27 @@
       background-color: rgba($color-secondary-light, 0.3);
     }
   }
+
+  &__error {
+    color: red;
+    font-size: 0.6rem;
+  }
+}
+
+.shake {
+  animation: shake 1s alternate-reverse;
+}
+
+@keyframes shake {
+  0% {
+    transform: skewX(10deg) translateX(-5px);
+  }
+
+  50% {
+    transform: skewX(-10deg) translateX(5px);
+  }
+
+  100% {
+    transform: skewX(0) translateX(0);
+  }
 }

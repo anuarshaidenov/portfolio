@@ -91,6 +91,10 @@ ul {
   display: none !important;
 }
 
+.invisible {
+  opacity: 0;
+}
+
 .translated {
   -webkit-transform: translateX(150%);
           transform: translateX(150%);
@@ -704,6 +708,45 @@ ul {
   outline: none;
   border: 1px solid #ff6163;
   background-color: rgba(249, 234, 234, 0.3);
+}
+
+.contact-form__error {
+  color: red;
+  font-size: 0.6rem;
+}
+
+.shake {
+  animation: shake 1s alternate-reverse;
+}
+
+@-webkit-keyframes shake {
+  0% {
+    -webkit-transform: skewX(10deg) translateX(-5px);
+            transform: skewX(10deg) translateX(-5px);
+  }
+  50% {
+    -webkit-transform: skewX(-10deg) translateX(5px);
+            transform: skewX(-10deg) translateX(5px);
+  }
+  100% {
+    -webkit-transform: skewX(0) translateX(0);
+            transform: skewX(0) translateX(0);
+  }
+}
+
+@keyframes shake {
+  0% {
+    -webkit-transform: skewX(10deg) translateX(-5px);
+            transform: skewX(10deg) translateX(-5px);
+  }
+  50% {
+    -webkit-transform: skewX(-10deg) translateX(5px);
+            transform: skewX(-10deg) translateX(5px);
+  }
+  100% {
+    -webkit-transform: skewX(0) translateX(0);
+            transform: skewX(0) translateX(0);
+  }
 }
 
 .section-footer {

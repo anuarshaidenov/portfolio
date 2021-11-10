@@ -211,6 +211,7 @@
             like to chat please get in touch.
           </h2>
           <form
+            id="form"
             action="https://formspree.io/f/mwkajyvy"
             method="post"
             class="contact-form section-contact__form"
@@ -241,6 +242,9 @@
               required
             ></textarea>
             <button type="submit" class="btn-cta">Get in touch</button>
+            <p id="error-msg" class="contact-form__error invisible">
+              Email should be written in lowercase
+            </p>
           </form>
         </div>
       </section>
@@ -316,5 +320,6 @@
     <script src="./js/script.js"></script>
     <script src="./js/scroll.js"></script>
     <script src="./js/modal.js"></script>
+    <script src="./js/formValidation.js"></script>
   </body>
 </html>
