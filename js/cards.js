@@ -12,14 +12,8 @@ const modalSource = document.getElementById('modal-source');
 const data = [
   {
     id: 1,
-    class: 'container',
     title: 'Tonic',
-    company: 'Canopi',
-    role: 'Backend dev',
-    year: 2015,
     img: './images/project-img.png',
-    description:
-      'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     descriptionPopup:
       'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae dolorem aspernatur, sapiente in aut iste libero impedit suscipit dignissimos, eligendi tempora amet rem minima, aliquid nesciunt dicta hic facere distinctio! Assumenda beatae iusto voluptas sint neque, praesentium earum harum corrupti sunt delectus dolores ut a excepturi officiis consequuntur facilis, minima ducimus adipisci. Molestias, hic. Quo accusantium mollitia esse minus harum. Eos fugiat perspiciatis repudiandae molestiae? Saepe, soluta sint magnam et magni ut odio alias natus molestias est non possimus, assumenda in debitis optio similique quod ratione ad? Minus, provident asperiores? Sed quo magnam temporibus in, nam nostrum sunt asperiores modi possimus, qui doloribus harum ex sit tempora earum, eligendi consequatur fugit dicta accusamus?Vitae ipsa perferendis ad at quisquam maxime.',
     tags: ['javascript', 'html', 'css', 'javascript', 'html', 'scss'],
@@ -27,14 +21,8 @@ const data = [
   },
   {
     id: 2,
-    class: 'container-reverse',
     title: 'Multi-Post Stories',
-    company: 'Facebook',
-    role: 'Backend dev',
-    year: 2015,
     img: './images/project-img.png',
-    description:
-      'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     descriptionPopup:
       'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae dolorem aspernatur, sapiente in aut iste libero impedit suscipit dignissimos, eligendi tempora amet rem minima, aliquid nesciunt dicta hic facere distinctio! Assumenda beatae iusto voluptas sint neque, praesentium earum harum corrupti sunt delectus dolores ut a excepturi officiis consequuntur facilis, minima ducimus adipisci. Molestias, hic. Quo accusantium mollitia esse minus harum. Eos fugiat perspiciatis repudiandae molestiae? Saepe, soluta sint magnam et magni ut odio alias natus molestias est non possimus, assumenda in debitis optio similique quod ratione ad? Minus, provident asperiores? Sed quo magnam temporibus in, nam nostrum sunt asperiores modi possimus, qui doloribus harum ex sit tempora earum, eligendi consequatur fugit dicta accusamus?Vitae ipsa perferendis ad at quisquam maxime.',
     tags: ['javascript', 'html', 'css', 'javascript', 'html', 'css'],
@@ -42,14 +30,8 @@ const data = [
   },
   {
     id: 3,
-    class: 'container',
     title: 'Facebook 360',
-    company: 'Facebook',
-    role: 'Backend dev',
-    year: 2015,
     img: './images/project-img.png',
-    description:
-      'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     descriptionPopup:
       'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae dolorem aspernatur, sapiente in aut iste libero impedit suscipit dignissimos, eligendi tempora amet rem minima, aliquid nesciunt dicta hic facere distinctio! Assumenda beatae iusto voluptas sint neque, praesentium earum harum corrupti sunt delectus dolores ut a excepturi officiis consequuntur facilis, minima ducimus adipisci. Molestias, hic. Quo accusantium mollitia esse minus harum. Eos fugiat perspiciatis repudiandae molestiae? Saepe, soluta sint magnam et magni ut odio alias natus molestias est non possimus, assumenda in debitis optio similique quod ratione ad? Minus, provident asperiores? Sed quo magnam temporibus in, nam nostrum sunt asperiores modi possimus, qui doloribus harum ex sit tempora earum, eligendi consequatur fugit dicta accusamus?Vitae ipsa perferendis ad at quisquam maxime.',
     tags: ['javascript', 'html', 'css', 'javascript', 'html', 'css'],
@@ -57,14 +39,26 @@ const data = [
   },
   {
     id: 4,
-    class: 'container-reverse',
     title: 'Uber Navigation',
-    company: 'Uber',
-    role: 'Backend dev',
-    year: 2018,
     img: './images/project-img.png',
-    description:
-      'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    descriptionPopup:
+      'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae dolorem aspernatur, sapiente in aut iste libero impedit suscipit dignissimos, eligendi tempora amet rem minima, aliquid nesciunt dicta hic facere distinctio! Assumenda beatae iusto voluptas sint neque, praesentium earum harum corrupti sunt delectus dolores ut a excepturi officiis consequuntur facilis, minima ducimus adipisci. Molestias, hic. Quo accusantium mollitia esse minus harum. Eos fugiat perspiciatis repudiandae molestiae? Saepe, soluta sint magnam et magni ut odio alias natus molestias est non possimus, assumenda in debitis optio similique quod ratione ad? Minus, provident asperiores? Sed quo magnam temporibus in, nam nostrum sunt asperiores modi possimus, qui doloribus harum ex sit tempora earum, eligendi consequatur fugit dicta accusamus?Vitae ipsa perferendis ad at quisquam maxime.',
+    tags: ['javascript', 'html', 'css', 'javascript', 'html', 'css'],
+    liveLink: 'https://anuarshaidenov.github.com/portfolio',
+  },
+  {
+    id: 5,
+    title: 'Project 5',
+    img: './images/project-img.png',
+    descriptionPopup:
+      'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae dolorem aspernatur, sapiente in aut iste libero impedit suscipit dignissimos, eligendi tempora amet rem minima, aliquid nesciunt dicta hic facere distinctio! Assumenda beatae iusto voluptas sint neque, praesentium earum harum corrupti sunt delectus dolores ut a excepturi officiis consequuntur facilis, minima ducimus adipisci. Molestias, hic. Quo accusantium mollitia esse minus harum. Eos fugiat perspiciatis repudiandae molestiae? Saepe, soluta sint magnam et magni ut odio alias natus molestias est non possimus, assumenda in debitis optio similique quod ratione ad? Minus, provident asperiores? Sed quo magnam temporibus in, nam nostrum sunt asperiores modi possimus, qui doloribus harum ex sit tempora earum, eligendi consequatur fugit dicta accusamus?Vitae ipsa perferendis ad at quisquam maxime.',
+    tags: ['javascript', 'html', 'css', 'javascript', 'html', 'css'],
+    liveLink: 'https://anuarshaidenov.github.com/portfolio',
+  },
+  {
+    id: 6,
+    title: 'Project 6',
+    img: './images/project-img.png',
     descriptionPopup:
       'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae dolorem aspernatur, sapiente in aut iste libero impedit suscipit dignissimos, eligendi tempora amet rem minima, aliquid nesciunt dicta hic facere distinctio! Assumenda beatae iusto voluptas sint neque, praesentium earum harum corrupti sunt delectus dolores ut a excepturi officiis consequuntur facilis, minima ducimus adipisci. Molestias, hic. Quo accusantium mollitia esse minus harum. Eos fugiat perspiciatis repudiandae molestiae? Saepe, soluta sint magnam et magni ut odio alias natus molestias est non possimus, assumenda in debitis optio similique quod ratione ad? Minus, provident asperiores? Sed quo magnam temporibus in, nam nostrum sunt asperiores modi possimus, qui doloribus harum ex sit tempora earum, eligendi consequatur fugit dicta accusamus?Vitae ipsa perferendis ad at quisquam maxime.',
     tags: ['javascript', 'html', 'css', 'javascript', 'html', 'css'],
