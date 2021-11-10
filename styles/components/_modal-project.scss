@@ -28,6 +28,7 @@
   &__img {
     max-height: 250px;
     object-fit: cover;
+    border-radius: 8px;
 
     @media (min-width: 860px) {
       grid-column: 1 / -1;

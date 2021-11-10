@@ -449,6 +449,7 @@ ul {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  overflow: hidden;
 }
 
 .card__portfolio-img {
@@ -770,6 +771,7 @@ ul {
   max-height: 250px;
   -o-object-fit: cover;
      object-fit: cover;
+  border-radius: 8px;
 }
 
 @media (min-width: 860px) {
