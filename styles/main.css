@@ -758,6 +758,7 @@ ul {
       align-self: flex-end;
   border: none;
   background-color: transparent;
+  cursor: pointer;
 }
 
 @media (min-width: 860px) {
@@ -780,6 +781,12 @@ ul {
     grid-column: 1 / -1;
     width: 100%;
   }
+}
+
+.modal-project__title {
+  -ms-flex-item-align: start;
+      -ms-grid-row-align: start;
+      align-self: start;
 }
 
 @media (min-width: 860px) {

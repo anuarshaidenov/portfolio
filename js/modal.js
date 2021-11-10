@@ -101,7 +101,9 @@ function openModal(id) {
 
 modalCloseBtn.addEventListener('click', closeModal);
 
-backdrop.addEventListener('click', closeModal);
+backdrop.addEventListener('click', (e) => {
+  if (e.target.id === 'backdrop') closeModal();
+});
 
 data.forEach((card) => {
   const cardEl = `
@@ -115,12 +117,12 @@ data.forEach((card) => {
             <h3 class="subheading">${card.title}</h3>
             <ul class="card__list">
                 ${card.tags
-    .map((tag) => `<li class="card__list-item">${tag}</li>`)
-    .join('')}
+                  .map((tag) => `<li class="card__list-item">${tag}</li>`)
+                  .join('')}
             </ul>
             <button data-id=${
-  card.id
-} class="btn-cta card__btn" type="button">See Project</button>
+              card.id
+            } class="btn-cta card__btn" type="button">See Project</button>
             </div>
         </div>`;
   projectsContainer.insertAdjacentHTML('beforeend', cardEl);
