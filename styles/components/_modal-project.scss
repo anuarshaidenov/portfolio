@@ -1,0 +1,83 @@
+.modal-project {
+  position: absolute;
+  left: 50%;
+  top: 5%;
+  transform: translateX(-50%);
+  width: 95%;
+  max-width: 920px;
+  padding: 1rem;
+  border-radius: 16px;
+  background-color: $color-white;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+
+  &__close-btn {
+    align-self: flex-end;
+    border: none;
+    background-color: transparent;
+
+    @media (min-width: 860px) {
+      grid-column: 2 / -1;
+      justify-self: end;
+    }
+  }
+
+  &__img {
+    height: 40vw;
+    object-fit: cover;
+    border-radius: 8px;
+
+    @media (min-width: 860px) {
+      grid-column: 1 / -1;
+      width: 100%;
+    }
+  }
+
+  &__title {
+    @media (min-width: 860px) {
+      grid-column: 1 / 2;
+      grid-row: 3 / 4;
+    }
+  }
+
+  &__tech-list {
+    justify-content: flex-start;
+
+    @media (min-width: 860px) {
+      grid-row: 4 / 5;
+    }
+  }
+
+  &__text {
+    font-size: 0.8rem;
+    text-align: left;
+
+    @media (min-width: 860px) {
+      grid-row: 5 / 6;
+      grid-column: 1 / -1;
+    }
+  }
+
+  &__buttons {
+    display: flex;
+    gap: 0.6rem;
+
+    .btn-cta {
+      display: flex;
+      gap: 7px;
+    }
+
+    @media (min-width: 860px) {
+      justify-content: flex-end;
+      grid-row: 3 / 4;
+    }
+  }
+
+  @media (min-width: 860px) {
+    display: grid;
+    grid-template-rows: auto auto auto auto auto;
+    grid-template-columns: 70% 1fr;
+    align-items: center;
+  }
+}

@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
 
 $font-base: 1rem;
 $font-heading: 2rem;
@@ -19,7 +19,7 @@ html {
 }
 
 body {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
 }
 
 img {
@@ -33,7 +33,7 @@ a {
 
   &::after {
     position: absolute;
-    content: "";
+    content: '';
     width: 0;
     height: 2px;
     background-color: $color-primary;
@@ -65,7 +65,7 @@ ul {
 }
 
 .hidden {
-  display: none;
+  display: none !important;
 }
 
 .translated {

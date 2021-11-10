@@ -11,9 +11,9 @@
       function gtag() {
         dataLayer.push(arguments);
       }
-      gtag("js", new Date());
+      gtag('js', new Date());
 
-      gtag("config", "G-86WDP63CE0");
+      gtag('config', 'G-86WDP63CE0');
     </script>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -39,16 +39,28 @@
             id="close"
           />
           <ul class="mobile-nav__list translated" id="menu">
-            <li class="mobile-nav__el"><a href="#portfolio">Portfolio</a></li>
-            <li class="mobile-nav__el"><a href="#about">About</a></li>
-            <li class="mobile-nav__el"><a href="#contact">Contact</a></li>
+            <li class="mobile-nav__el">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="mobile-nav__el">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="mobile-nav__el">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
           </ul>
         </nav>
         <nav class="desktop-nav">
           <ul class="desktop-nav__list">
-            <li class="desktop-nav__el"><a href="#portfolio">Portfolio</a></li>
-            <li class="desktop-nav__el"><a href="#about">About</a></li>
-            <li class="desktop-nav__el"><a href="#contact">Contact</a></li>
+            <li class="desktop-nav__el">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="desktop-nav__el">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="desktop-nav__el">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
           </ul>
         </nav>
       </div>
@@ -106,110 +118,7 @@
           <h2 class="section-heading section-heading--underlined">
             My Recent Works
           </h2>
-          <div class="section-works__projects">
-            <div class="card">
-              <img
-                src="images/card-placeholder.png"
-                alt="Portfolio image"
-                class="card__portfolio-img"
-              />
-              <div class="card__portfolio-info">
-                <h3 class="subheading">Multi-Post Stories Gain+Glory</h3>
-                <ul class="card__list">
-                  <li class="card__list-item">Ruby on Rails</li>
-                  <li class="card__list-item">css</li>
-                  <li class="card__list-item">JavaScript</li>
-                  <li class="card__list-item">HTML</li>
-                </ul>
-                <button class="btn-cta" type="button">See Project</button>
-              </div>
-            </div>
-            <div class="card">
-              <img
-                src="images/card-placeholder.png"
-                alt="Portfolio image"
-                class="card__portfolio-img"
-              />
-              <div class="card__portfolio-info">
-                <h3 class="subheading">Multi-Post Stories Gain+Glory</h3>
-                <ul class="card__list">
-                  <li class="card__list-item">Ruby on Rails</li>
-                  <li class="card__list-item">css</li>
-                  <li class="card__list-item">JavaScript</li>
-                  <li class="card__list-item">HTML</li>
-                </ul>
-                <button class="btn-cta" type="button">See Project</button>
-              </div>
-            </div>
-            <div class="card">
-              <img
-                src="images/card-placeholder.png"
-                alt="Portfolio image"
-                class="card__portfolio-img"
-              />
-              <div class="card__portfolio-info">
-                <h3 class="subheading">Multi-Post Stories Gain+Glory</h3>
-                <ul class="card__list">
-                  <li class="card__list-item">Ruby on Rails</li>
-                  <li class="card__list-item">css</li>
-                  <li class="card__list-item">JavaScript</li>
-                  <li class="card__list-item">HTML</li>
-                </ul>
-                <button class="btn-cta" type="button">See Project</button>
-              </div>
-            </div>
-            <div class="card">
-              <img
-                src="images/card-placeholder.png"
-                alt="Portfolio image"
-                class="card__portfolio-img"
-              />
-              <div class="card__portfolio-info">
-                <h3 class="subheading">Multi-Post Stories Gain+Glory</h3>
-                <ul class="card__list">
-                  <li class="card__list-item">Ruby on Rails</li>
-                  <li class="card__list-item">css</li>
-                  <li class="card__list-item">JavaScript</li>
-                  <li class="card__list-item">HTML</li>
-                </ul>
-                <button class="btn-cta" type="button">See Project</button>
-              </div>
-            </div>
-            <div class="card">
-              <img
-                src="images/card-placeholder.png"
-                alt="Portfolio image"
-                class="card__portfolio-img"
-              />
-              <div class="card__portfolio-info">
-                <h3 class="subheading">Multi-Post Stories Gain+Glory</h3>
-                <ul class="card__list">
-                  <li class="card__list-item">Ruby on Rails</li>
-                  <li class="card__list-item">css</li>
-                  <li class="card__list-item">JavaScript</li>
-                  <li class="card__list-item">HTML</li>
-                </ul>
-                <button class="btn-cta" type="button">See Project</button>
-              </div>
-            </div>
-            <div class="card">
-              <img
-                src="images/card-placeholder.png"
-                alt="Portfolio image"
-                class="card__portfolio-img"
-              />
-              <div class="card__portfolio-info">
-                <h3 class="subheading">Multi-Post Stories Gain+Glory</h3>
-                <ul class="card__list">
-                  <li class="card__list-item">Ruby on Rails</li>
-                  <li class="card__list-item">css</li>
-                  <li class="card__list-item">JavaScript</li>
-                  <li class="card__list-item">HTML</li>
-                </ul>
-                <button class="btn-cta" type="button">See Project</button>
-              </div>
-            </div>
-          </div>
+          <div class="section-works__projects" id="projects"></div>
         </div>
       </section>
 
@@ -366,6 +275,46 @@
         <p class="base-text">anuarshaidenov@gmail.com</p>
       </footer>
     </main>
-    <script src="./script.js"></script>
+    <div class="backdrop hidden" id="backdrop">
+      <div class="modal-project hidden" id="modal">
+        <button class="btn-close modal-project__close-btn" id="close-modal">
+          <img src="./images/close-menu.svg" alt="Close Icon" />
+        </button>
+        <img
+          src="./images/project-img.png"
+          alt=""
+          class="modal-project__img"
+          id="modal-img"
+        />
+        <h3 class="subheading modal-project__title" id="modal-title">
+          Keeping track of hundreds of components
+        </h3>
+        <ul class="tech-list modal-project__tech-list" id="modal-list"></ul>
+        <p class="base-text modal-project__text" id="modal-description">
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s, when an unknown printer took a galley of type and
+          scrambled it 1960s with the releaLorem Ipsum is simply dummy text of
+          the printing and typesetting industry. Lorem Ipsum has been the
+          industry's standard dummy text ever since the 1500s, when an unknown
+          printer took a galley of type and scrambled it 1960s with the relea
+        </p>
+        <div class="modal-project__buttons">
+          <a href="#" target="_blank" id="modal-live" class="btn-cta"
+            >See Live
+            <span
+              ><img src="./images/live-link-icon.svg" alt="Live Icon" /></span
+          ></a>
+          <a href="#" target="_blank" id="modal-source" class="btn-cta"
+            >See Source<span
+              ><img src="./images/source-icon.svg" alt="Source Icon" /></span
+          ></a>
+        </div>
+      </div>
+    </div>
+
+    <script src="./js/script.js"></script>
+    <script src="./js/scroll.js"></script>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
