@@ -3,7 +3,7 @@ const form = document.querySelector('#form');
 const errorMsg = document.querySelector('#error-msg');
 
 function isEmailLowerCase(emailValue) {
-  return emailValue === emailValue.toLowerCase() ? true : false;
+  return emailValue === emailValue.toLowerCase();
 }
 
 form.addEventListener('submit', (e) => {
