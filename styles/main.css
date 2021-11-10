@@ -828,6 +828,13 @@ ul {
   gap: 0.6rem;
 }
 
+.modal-project__buttons .btn-cta {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 7px;
+}
+
 @media (min-width: 860px) {
   .modal-project__buttons {
     -webkit-box-pack: end;

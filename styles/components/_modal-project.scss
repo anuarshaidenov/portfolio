@@ -63,6 +63,11 @@
     display: flex;
     gap: 0.6rem;
 
+    .btn-cta {
+      display: flex;
+      gap: 7px;
+    }
+
     @media (min-width: 860px) {
       justify-content: flex-end;
       grid-row: 3 / 4;
