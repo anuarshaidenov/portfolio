@@ -73,12 +73,16 @@ const data = [
 ];
 function closeModal() {
   document.querySelector('body').style.overflow = 'visible';
+  document.querySelector('html').style.overflow = 'visible';
+
   modal.classList.add('hidden');
   backdrop.classList.add('hidden');
 }
 
 function openModal(id) {
   document.querySelector('body').style.overflow = 'hidden';
+  document.querySelector('html').style.overflow = 'hidden';
+
   const [curProject] = data.filter((project) => project.id === Number(id));
   const projectList = curProject.tags;
 
