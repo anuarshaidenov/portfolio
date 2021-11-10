@@ -68,6 +68,10 @@ ul {
   display: none !important;
 }
 
+.invisible {
+  opacity: 0;
+}
+
 .translated {
   transform: translateX(150%);
 }

@@ -18,4 +18,9 @@
       background-color: rgba($color-secondary-light, 0.3);
     }
   }
+
+  &__error {
+    color: red;
+    font-size: 0.6rem;
+  }
 }
