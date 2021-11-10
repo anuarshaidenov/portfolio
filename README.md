@@ -1,21 +1,20 @@
 # Portfolio
 
-> This is my responsive portfolio website.
+> This is my portfolio website.
 
 ![screenshot](./screenshot.png)
 
-## The objectives of this projects are:
+## Objective:
 
-- Understand how to parse a Figma design to create a UI.
-- Flexbox to place elements in the page.
-- Build a personal portfolio site.
-- Use images and backgrounds to enhance the look of the website.
-- Understand how to create UIs adaptable to different screen sizes using media queries.
+- Showcase my projects.
+- Tell users a bit about myself.
+- Use the website as a tool to provide my services.
 
 ## Built With
 
 - HTML
 - SCSS
+- JavaScript
 
 ## Live Demo
 
@@ -55,6 +54,12 @@ To check Stylelint linter errors run:
 
 ```
 npx stylelint "**/*.scss"
+```
+
+To check ESLint errors run:
+
+```
+npx eslint .
 ```
 
 ## Author
