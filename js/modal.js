@@ -18,6 +18,7 @@ const data = [
       'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae dolorem aspernatur, sapiente in aut iste libero impedit suscipit dignissimos, eligendi tempora amet rem minima, aliquid nesciunt dicta hic facere distinctio! Assumenda beatae iusto voluptas sint neque, praesentium earum harum corrupti sunt delectus dolores ut a excepturi officiis consequuntur facilis, minima ducimus adipisci. Molestias, hic. Quo accusantium mollitia esse minus harum. Eos fugiat perspiciatis repudiandae molestiae? Saepe, soluta sint magnam et magni ut odio alias natus molestias est non possimus, assumenda in debitis optio similique quod ratione ad? Minus, provident asperiores? Sed quo magnam temporibus in, nam nostrum sunt asperiores modi possimus, qui doloribus harum ex sit tempora earum, eligendi consequatur fugit dicta accusamus?Vitae ipsa perferendis ad at quisquam maxime.',
     tags: ['javascript', 'html', 'css', 'javascript', 'html', 'scss'],
     liveLink: 'https://anuarshaidenov.github.com/portfolio',
+    sourceLink: 'https://github.com/anuarshaidenov',
   },
   {
     id: 2,
@@ -27,6 +28,7 @@ const data = [
       'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae dolorem aspernatur, sapiente in aut iste libero impedit suscipit dignissimos, eligendi tempora amet rem minima, aliquid nesciunt dicta hic facere distinctio! Assumenda beatae iusto voluptas sint neque, praesentium earum harum corrupti sunt delectus dolores ut a excepturi officiis consequuntur facilis, minima ducimus adipisci. Molestias, hic. Quo accusantium mollitia esse minus harum. Eos fugiat perspiciatis repudiandae molestiae? Saepe, soluta sint magnam et magni ut odio alias natus molestias est non possimus, assumenda in debitis optio similique quod ratione ad? Minus, provident asperiores? Sed quo magnam temporibus in, nam nostrum sunt asperiores modi possimus, qui doloribus harum ex sit tempora earum, eligendi consequatur fugit dicta accusamus?Vitae ipsa perferendis ad at quisquam maxime.',
     tags: ['javascript', 'html', 'css', 'javascript', 'html', 'css'],
     liveLink: 'https://anuarshaidenov.github.com/portfolio',
+    sourceLink: 'https://github.com/anuarshaidenov',
   },
   {
     id: 3,
@@ -36,6 +38,7 @@ const data = [
       'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae dolorem aspernatur, sapiente in aut iste libero impedit suscipit dignissimos, eligendi tempora amet rem minima, aliquid nesciunt dicta hic facere distinctio! Assumenda beatae iusto voluptas sint neque, praesentium earum harum corrupti sunt delectus dolores ut a excepturi officiis consequuntur facilis, minima ducimus adipisci. Molestias, hic. Quo accusantium mollitia esse minus harum. Eos fugiat perspiciatis repudiandae molestiae? Saepe, soluta sint magnam et magni ut odio alias natus molestias est non possimus, assumenda in debitis optio similique quod ratione ad? Minus, provident asperiores? Sed quo magnam temporibus in, nam nostrum sunt asperiores modi possimus, qui doloribus harum ex sit tempora earum, eligendi consequatur fugit dicta accusamus?Vitae ipsa perferendis ad at quisquam maxime.',
     tags: ['javascript', 'html', 'css', 'javascript', 'html', 'css'],
     liveLink: 'https://anuarshaidenov.github.com/portfolio',
+    sourceLink: 'https://github.com/anuarshaidenov',
   },
   {
     id: 4,
@@ -45,6 +48,7 @@ const data = [
       'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae dolorem aspernatur, sapiente in aut iste libero impedit suscipit dignissimos, eligendi tempora amet rem minima, aliquid nesciunt dicta hic facere distinctio! Assumenda beatae iusto voluptas sint neque, praesentium earum harum corrupti sunt delectus dolores ut a excepturi officiis consequuntur facilis, minima ducimus adipisci. Molestias, hic. Quo accusantium mollitia esse minus harum. Eos fugiat perspiciatis repudiandae molestiae? Saepe, soluta sint magnam et magni ut odio alias natus molestias est non possimus, assumenda in debitis optio similique quod ratione ad? Minus, provident asperiores? Sed quo magnam temporibus in, nam nostrum sunt asperiores modi possimus, qui doloribus harum ex sit tempora earum, eligendi consequatur fugit dicta accusamus?Vitae ipsa perferendis ad at quisquam maxime.',
     tags: ['javascript', 'html', 'css', 'javascript', 'html', 'css'],
     liveLink: 'https://anuarshaidenov.github.com/portfolio',
+    sourceLink: 'https://github.com/anuarshaidenov',
   },
   {
     id: 5,
@@ -54,6 +58,7 @@ const data = [
       'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae dolorem aspernatur, sapiente in aut iste libero impedit suscipit dignissimos, eligendi tempora amet rem minima, aliquid nesciunt dicta hic facere distinctio! Assumenda beatae iusto voluptas sint neque, praesentium earum harum corrupti sunt delectus dolores ut a excepturi officiis consequuntur facilis, minima ducimus adipisci. Molestias, hic. Quo accusantium mollitia esse minus harum. Eos fugiat perspiciatis repudiandae molestiae? Saepe, soluta sint magnam et magni ut odio alias natus molestias est non possimus, assumenda in debitis optio similique quod ratione ad? Minus, provident asperiores? Sed quo magnam temporibus in, nam nostrum sunt asperiores modi possimus, qui doloribus harum ex sit tempora earum, eligendi consequatur fugit dicta accusamus?Vitae ipsa perferendis ad at quisquam maxime.',
     tags: ['javascript', 'html', 'css', 'javascript', 'html', 'css'],
     liveLink: 'https://anuarshaidenov.github.com/portfolio',
+    sourceLink: 'https://github.com/anuarshaidenov',
   },
   {
     id: 6,
@@ -63,17 +68,17 @@ const data = [
       'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae dolorem aspernatur, sapiente in aut iste libero impedit suscipit dignissimos, eligendi tempora amet rem minima, aliquid nesciunt dicta hic facere distinctio! ',
     tags: ['javascript', 'html', 'css', 'react', 'ruby', 'scss', 'bootstrap'],
     liveLink: 'https://anuarshaidenov.github.com/portfolio',
+    sourceLink: 'https://github.com/anuarshaidenov',
   },
 ];
-
-const closeModal = function () {
-  body.style.overflow = 'visible';
+function closeModal() {
+  document.querySelector('body').style.overflow = 'visible';
   modal.classList.add('hidden');
   backdrop.classList.add('hidden');
-};
+}
 
-const openModal = function (id) {
-  body.style.overflow = 'hidden';
+function openModal(id) {
+  document.querySelector('body').style.overflow = 'hidden';
   const [curProject] = data.filter((project) => project.id === Number(id));
   const projectList = curProject.tags;
 
@@ -88,10 +93,11 @@ const openModal = function (id) {
     modalList.insertAdjacentHTML('beforeend', projectListItem);
   });
   modalLive.src = curProject.liveLink;
+  modalSource.src = curProject.sourceLink;
 
   modal.classList.remove('hidden');
   backdrop.classList.remove('hidden');
-};
+}
 
 modalCloseBtn.addEventListener('click', closeModal);
 
@@ -109,14 +115,12 @@ data.forEach((card) => {
             <h3 class="subheading">${card.title}</h3>
             <ul class="card__list">
                 ${card.tags
-                  .map((tag) => {
-                    return `<li class="card__list-item">${tag}</li>`;
-                  })
-                  .join('')}
+    .map((tag) => `<li class="card__list-item">${tag}</li>`)
+    .join('')}
             </ul>
             <button data-id=${
-              card.id
-            } class="btn-cta card__btn" type="button">See Project</button>
+  card.id
+} class="btn-cta card__btn" type="button">See Project</button>
             </div>
         </div>`;
   projectsContainer.insertAdjacentHTML('beforeend', cardEl);

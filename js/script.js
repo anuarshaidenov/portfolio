@@ -4,19 +4,19 @@ const btnClose = document.getElementById('close');
 const menu = document.getElementById('menu');
 const links = document.querySelectorAll('.mobile-nav__el a');
 
-const openMenu = function () {
+function openMenu() {
   body.style.overflow = 'hidden';
   btnHamburger.classList.add('hidden');
   btnClose.classList.remove('hidden');
   menu.classList.remove('translated');
-};
+}
 
-const closeMenu = function () {
+function closeMenu() {
   body.style.overflow = 'visible';
   btnClose.classList.add('hidden');
   btnHamburger.classList.remove('hidden');
   menu.classList.add('translated');
-};
+}
 
 btnHamburger.addEventListener('click', openMenu);
 btnClose.addEventListener('click', closeMenu);
