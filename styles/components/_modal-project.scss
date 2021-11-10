@@ -1,12 +1,10 @@
 .modal-project {
-  position: fixed;
-  overflow-y: auto;
+  position: absolute;
   left: 50%;
   top: 5%;
   transform: translateX(-50%);
   width: 95%;
   max-width: 920px;
-  height: 90%;
   padding: 1rem;
   border-radius: 16px;
   background-color: $color-white;
@@ -26,14 +24,13 @@
   }
 
   &__img {
-    max-height: 250px;
+    height: 40vw;
     object-fit: cover;
     border-radius: 8px;
 
     @media (min-width: 860px) {
       grid-column: 1 / -1;
       width: 100%;
-      max-height: 400px;
     }
   }
 
