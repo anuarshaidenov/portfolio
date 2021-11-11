@@ -19,13 +19,12 @@ function saveData() {
   inputData.name = inputName.value;
   inputData.email = inputEmail.value;
   inputData.text = inputText.value;
-
   inputDataStr = JSON.stringify(inputData);
   localStorage.inputData = inputDataStr;
 }
 
-window.addEventListener('load', loadData);
-
 inputName.addEventListener('input', saveData);
 inputEmail.addEventListener('input', saveData);
 inputText.addEventListener('input', saveData);
+
+window.addEventListener('load', loadData);
