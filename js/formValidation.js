@@ -11,6 +11,14 @@ form.addEventListener('submit', (e) => {
   if (isEmailLowerCase(email.value)) {
     errorMsg.classList.add('invisible');
     errorMsg.classList.remove('shake');
+
+    // Clear the local storage before submission
+    inputData.name = '';
+    inputData.email = '';
+    inputData.text = '';
+    const inputDataStr = JSON.stringify(inputData);
+    localStorage.inputData = inputDataStr;
+
     form.submit();
   } else {
     errorMsg.textContent = 'Email must be typed in lowercase.';
