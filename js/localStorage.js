@@ -9,25 +9,25 @@ const inputData = {
 };
 
 function loadData() {
-  const loadedData = JSON.parse(localStorage.inputData);
-  if (!loadedData) {
-    return
+  if (!localStorage.inputData) {
+    return;
   }
+  const loadedData = JSON.parse(localStorage.inputData);
   inputName.value = loadedData.name;
   inputEmail.value = loadedData.email;
   inputText.value = loadedData.text;
 }
 
 function saveData() {
+  const inputDataStr = JSON.stringify(inputData);
   inputData.name = inputName.value;
   inputData.email = inputEmail.value;
   inputData.text = inputText.value;
-  inputDataStr = JSON.stringify(inputData);
   localStorage.inputData = inputDataStr;
 }
+
+window.addEventListener('load', loadData);
 
 inputName.addEventListener('input', saveData);
 inputEmail.addEventListener('input', saveData);
 inputText.addEventListener('input', saveData);
-
-window.addEventListener('load', loadData);
