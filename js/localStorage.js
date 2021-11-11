@@ -10,6 +10,9 @@ const inputData = {
 
 function loadData() {
   const loadedData = JSON.parse(localStorage.inputData);
+  if (!loadedData) {
+    return
+  }
   inputName.value = loadedData.name;
   inputEmail.value = loadedData.email;
   inputText.value = loadedData.text;
