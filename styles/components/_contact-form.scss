@@ -26,19 +26,5 @@
 }
 
 .shake {
-  animation: shake 1s alternate-reverse;
-}
-
-@keyframes shake {
-  0% {
-    transform: skewX(10deg) translateX(-5px);
-  }
-
-  50% {
-    transform: skewX(-10deg) translateX(5px);
-  }
-
-  100% {
-    transform: skewX(0) translateX(0);
-  }
+  animation: shake 0.7s alternate-reverse;
 }

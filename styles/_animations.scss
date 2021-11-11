@@ -11,3 +11,21 @@
     transform: translateY(0);
   }
 }
+
+@keyframes shake {
+  0% {
+    transform: skewX(0) translateX(0);
+  }
+
+  25% {
+    transform: skewX(-10deg) translateX(5px);
+  }
+
+  50% {
+    transform: skewX(10deg);
+  }
+
+  100% {
+    transform: skewX(0) translateX(0);
+  }
+}
