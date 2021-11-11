@@ -13,10 +13,12 @@ form.addEventListener('submit', (e) => {
     errorMsg.classList.remove('shake');
 
     // Clear the local storage before submission
-    inputData.name = '';
-    inputData.email = '';
-    inputData.text = '';
-    const inputDataStr = JSON.stringify(inputData);
+    const inputDataEmpty = {
+      name: '',
+      email: '',
+      text: '',
+    };
+    const inputDataStr = JSON.stringify(inputDataEmpty);
     localStorage.inputData = inputDataStr;
 
     form.submit();
