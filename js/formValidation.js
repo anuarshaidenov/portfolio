@@ -1,3 +1,5 @@
+import { emptyLocalStorage } from './localStorage.js';
+
 const email = document.querySelector('#email');
 const form = document.querySelector('#form');
 const errorMsg = document.querySelector('#error-msg');
@@ -13,13 +15,7 @@ form.addEventListener('submit', (e) => {
     errorMsg.classList.remove('shake');
 
     // Clear the local storage before submission
-    const inputDataEmpty = {
-      name: '',
-      email: '',
-      text: '',
-    };
-    const inputDataStr = JSON.stringify(inputDataEmpty);
-    localStorage.inputData = inputDataStr;
+    emptyLocalStorage();
 
     form.submit();
   } else {

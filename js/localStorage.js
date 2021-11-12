@@ -8,6 +8,14 @@ const inputData = {
   text: '',
 };
 
+export function emptyLocalStorage() {
+  inputData.name = '';
+  inputData.email = '';
+  inputData.text = '';
+  const inputDataStr = JSON.stringify(inputData);
+  localStorage.inputData = inputDataStr;
+}
+
 function loadData() {
   if (!localStorage.inputData) {
     return;
