@@ -1,6 +1,6 @@
-const inputName = document.getElementById('name');
-const inputEmail = document.getElementById('email');
-const inputText = document.getElementById('text');
+export const inputName = document.getElementById('name');
+export const inputEmail = document.getElementById('email');
+export const inputText = document.getElementById('text');
 
 const inputData = {
   name: '',
@@ -16,7 +16,7 @@ export function emptyLocalStorage() {
   localStorage.inputData = inputDataStr;
 }
 
-function loadData() {
+export function loadData() {
   if (!localStorage.inputData) {
     return;
   }
@@ -26,7 +26,7 @@ function loadData() {
   inputText.value = loadedData.text;
 }
 
-function saveData() {
+export function saveData() {
   inputData.name = inputName.value;
   inputData.email = inputEmail.value;
   inputData.text = inputText.value;
@@ -34,9 +34,3 @@ function saveData() {
   const inputDataStr = JSON.stringify(inputData);
   localStorage.inputData = inputDataStr;
 }
-
-window.addEventListener('load', loadData);
-
-inputName.addEventListener('input', saveData);
-inputEmail.addEventListener('input', saveData);
-inputText.addEventListener('input', saveData);

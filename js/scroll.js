@@ -1,17 +1,7 @@
-const navLinks = document.querySelectorAll('.nav-link');
+export const navLinks = document.querySelectorAll('.nav-link');
 
-function scrollToSection(el) {
+export function scrollToSection(target) {
+  const id = target.split('').splice(target.indexOf('#')).join('');
+  const el = document.querySelector(id);
   el.scrollIntoView({ behavior: 'smooth' });
 }
-
-navLinks.forEach((link) => {
-  link.addEventListener('click', (e) => {
-    e.preventDefault();
-    const id = e.target.href
-      .split('')
-      .splice(e.target.href.indexOf('#'))
-      .join('');
-    const target = document.querySelector(id);
-    scrollToSection(target);
-  });
-});

@@ -1,13 +1,13 @@
 const projectsContainer = document.getElementById('projects');
-const backdrop = document.getElementById('backdrop');
 const modal = document.getElementById('modal');
-const modalCloseBtn = document.getElementById('close-modal');
 const modalTitle = document.getElementById('modal-title');
 const modalImg = document.getElementById('modal-img');
 const modalList = document.getElementById('modal-list');
 const modalDescription = document.getElementById('modal-description');
 const modalLive = document.getElementById('modal-live');
 const modalSource = document.getElementById('modal-source');
+export const backdrop = document.getElementById('backdrop');
+export const modalCloseBtn = document.getElementById('close-modal');
 
 const data = [
   {
@@ -71,17 +71,26 @@ const data = [
     sourceLink: 'https://github.com/anuarshaidenov',
   },
 ];
-function closeModal() {
+
+function disableBodyScroll() {
+  document.querySelector('body').style.overflow = 'hidden';
+  document.querySelector('html').style.overflow = 'hidden';
+}
+
+function enableBodyScroll() {
   document.querySelector('body').style.overflow = 'visible';
   document.querySelector('html').style.overflow = 'visible';
+}
+
+export function closeModal() {
+  enableBodyScroll();
 
   modal.classList.add('hidden');
   backdrop.classList.add('hidden');
 }
 
-function openModal(id) {
-  document.querySelector('body').style.overflow = 'hidden';
-  document.querySelector('html').style.overflow = 'hidden';
+export function openModal(id) {
+  disableBodyScroll();
 
   const [curProject] = data.filter((project) => project.id === Number(id));
   const projectList = curProject.tags;
@@ -103,37 +112,33 @@ function openModal(id) {
   backdrop.classList.remove('hidden');
 }
 
-modalCloseBtn.addEventListener('click', closeModal);
-
-backdrop.addEventListener('click', (e) => {
-  if (e.target.id === 'backdrop') closeModal();
-});
-
-data.forEach((card) => {
-  const cardEl = `
-        <div class="card">
-            <img
-            src="${card.img}"
-            alt="Portfolio image"
-            class="card__portfolio-img"
-            />
-            <div class="card__portfolio-info">
-            <h3 class="subheading">${card.title}</h3>
-            <ul class="card__list">
-                ${card.tags
+export function displayCards() {
+  data.forEach((card) => {
+    const cardEl = `
+          <div class="card">
+              <img
+              src="${card.img}"
+              alt="Portfolio image"
+              class="card__portfolio-img"
+              />
+              <div class="card__portfolio-info">
+              <h3 class="subheading">${card.title}</h3>
+              <ul class="card__list">
+                  ${card.tags
     .map((tag) => `<li class="card__list-item">${tag}</li>`)
     .join('')}
-            </ul>
-            <button data-id=${
+              </ul>
+              <button data-id=${
   card.id
 } class="btn-cta card__btn" type="button">See Project</button>
-            </div>
-        </div>`;
-  projectsContainer.insertAdjacentHTML('beforeend', cardEl);
-});
-
-document.querySelectorAll('.card__btn').forEach((btn) => {
-  btn.addEventListener('click', () => {
-    openModal(btn.dataset.id);
+              </div>
+          </div>`;
+    projectsContainer.insertAdjacentHTML('beforeend', cardEl);
   });
-});
+
+  document.querySelectorAll('.card__btn').forEach((btn) => {
+    btn.addEventListener('click', () => {
+      openModal(btn.dataset.id);
+    });
+  });
+}
