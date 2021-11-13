@@ -1,57 +1,43 @@
-import { navLinks, scrollToSection } from './scroll.js';
-import { form, validateForm } from './formValidation.js';
-import {
-  backdrop, modalCloseBtn, closeModal, displayCards,
-} from './modal.js';
-import {
-  loadData,
-  saveData,
-  inputName,
-  inputEmail,
-  inputText,
-} from './localStorage.js';
-import {
-  btnHamburger,
-  btnClose,
-  links,
-  openMenu,
-  closeMenu,
-} from './mobileMenu.js';
+import * as scroll from './scroll.js';
+import * as formValidation from './formValidation.js';
+import * as modal from './modal.js';
+import * as localStorage from './localStorage.js';
+import * as mobileMenu from './mobileMenu.js';
 
 // Mobile menu functionality
-btnHamburger.addEventListener('click', openMenu);
-btnClose.addEventListener('click', closeMenu);
-links.forEach((link) => {
-  link.addEventListener('click', closeMenu);
+mobileMenu.btnHamburger.addEventListener('click', mobileMenu.openMenu);
+mobileMenu.btnClose.addEventListener('click', mobileMenu.closeMenu);
+mobileMenu.links.forEach((link) => {
+  link.addEventListener('click', mobileMenu.closeMenu);
 });
 
 // Smooth scroll functionality
-navLinks.forEach((link) => {
+scroll.navLinks.forEach((link) => {
   link.addEventListener('click', (e) => {
     e.preventDefault();
-    scrollToSection(e.target.href);
+    scroll.scrollToSection(e.target.href);
   });
 });
 
 // Form validation
-form.addEventListener('submit', (e) => {
+formValidation.form.addEventListener('submit', (e) => {
   e.preventDefault();
-  validateForm();
+  formValidation.validateForm();
 });
 
-inputName.addEventListener('input', saveData);
-inputEmail.addEventListener('input', saveData);
-inputText.addEventListener('input', saveData);
+localStorage.inputName.addEventListener('input', localStorage.saveData);
+localStorage.inputEmail.addEventListener('input', localStorage.saveData);
+localStorage.inputText.addEventListener('input', localStorage.saveData);
 
 // Close modal functionality
-modalCloseBtn.addEventListener('click', closeModal);
+modal.modalCloseBtn.addEventListener('click', modal.closeModal);
 
-backdrop.addEventListener('click', (e) => {
-  if (e.target.id === 'backdrop') closeModal();
+modal.backdrop.addEventListener('click', (e) => {
+  if (e.target.id === 'backdrop') modal.closeModal();
 });
 
 // Display the projects
-displayCards();
+modal.displayCards();
 
 // Save contact form input data in the local storage
-loadData();
+localStorage.loadData();
