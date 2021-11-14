@@ -784,11 +784,7 @@ ul {
 }
 
 .modal-project {
-  position: absolute;
-  left: 50%;
-  top: 5%;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
+  margin: 5vh auto;
   width: 95%;
   max-width: 920px;
   padding: 1rem;
