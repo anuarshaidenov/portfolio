@@ -132,8 +132,8 @@ export function openModal(id) {
     `;
     modalList.insertAdjacentHTML('beforeend', projectListItem);
   });
-  modalLive.src = curProject.liveLink;
-  modalSource.src = curProject.sourceLink;
+  modalLive.href = curProject.liveLink;
+  modalSource.href = curProject.sourceLink;
 
   modal.classList.remove('hidden');
   backdrop.classList.remove('hidden');
