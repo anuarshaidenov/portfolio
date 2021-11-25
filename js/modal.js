@@ -28,6 +28,16 @@ const data = [
     sourceLink: 'https://github.com/anuarshaidenov/LDN-film-fest',
   },
   {
+    id: 5,
+    title: 'Awesome Books',
+    img: 'https://raw.githubusercontent.com/anuarshaidenov/Awesome-books/master/screenshot.png',
+    descriptionPopup:
+      '"Awesome books" is a simple website that displays a list of books and allows you to add and remove books from that list.',
+    tags: ['javascript', 'html', 'css', 'javascript', 'html', 'css'],
+    liveLink: 'https://anuarshaidenov.github.io/Awesome-books/',
+    sourceLink: 'https://github.com/anuarshaidenov/Awesome-books',
+  },
+  {
     id: 2,
     title: 'Loopstudios landing page',
     img: './images/screenshot-loopstudios.png',
@@ -76,16 +86,6 @@ const data = [
     ],
     liveLink: 'https://anuarshaidenov.github.io/blogr/',
     sourceLink: 'https://github.com/anuarshaidenov/blogr',
-  },
-  {
-    id: 5,
-    title: 'Project 5',
-    img: './images/project-img-2.png',
-    descriptionPopup:
-      'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae dolorem aspernatur, sapiente in aut iste libero impedit suscipit dignissimos, eligendi tempora amet rem minima, aliquid nesciunt dicta hic facere distinctio! Assumenda beatae iusto voluptas sint neque, praesentium earum harum corrupti sunt delectus dolores ut a excepturi officiis consequuntur facilis, minima ducimus adipisci. Molestias, hic. Quo accusantium mollitia esse minus harum. Eos fugiat perspiciatis repudiandae molestiae? Saepe, soluta sint magnam et magni ut odio alias natus molestias est non possimus, assumenda in debitis optio similique quod ratione ad? Minus, provident asperiores? Sed quo magnam temporibus in, nam nostrum sunt asperiores modi possimus, qui doloribus harum ex sit tempora earum, eligendi consequatur fugit dicta accusamus?Vitae ipsa perferendis ad at quisquam maxime.',
-    tags: ['javascript', 'html', 'css', 'javascript', 'html', 'css'],
-    liveLink: 'https://anuarshaidenov.github.com/portfolio',
-    sourceLink: 'https://github.com/anuarshaidenov',
   },
   {
     id: 6,
@@ -152,12 +152,12 @@ export function displayCards() {
               <h3 class="subheading">${card.title}</h3>
               <ul class="card__list">
                   ${card.tags
-    .map((tag) => `<li class="card__list-item">${tag}</li>`)
-    .join('')}
+                    .map((tag) => `<li class="card__list-item">${tag}</li>`)
+                    .join('')}
               </ul>
               <button data-id=${
-  card.id
-} class="btn-cta card__btn" type="button">See Project</button>
+                card.id
+              } class="btn-cta card__btn" type="button">See Project</button>
               </div>
           </div>`;
     projectsContainer.insertAdjacentHTML('beforeend', cardEl);
