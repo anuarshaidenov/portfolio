@@ -13,7 +13,7 @@ const data = [
   {
     id: 1,
     title: 'LDN Film Fest',
-    img: './images/screenshot-ldn.png',
+    img: './images/screenshots/screenshot-ldn.png',
     descriptionPopup: 'A website for annual London Film Festival',
     tags: [
       'JavaScript',
@@ -30,7 +30,7 @@ const data = [
   {
     id: 5,
     title: 'Awesome Books',
-    img: 'https://raw.githubusercontent.com/anuarshaidenov/Awesome-books/master/screenshot.png',
+    img: './images/screenshots/sreenshot-books.png',
     descriptionPopup:
       '"Awesome books" is a simple website that displays a list of books and allows you to add and remove books from that list.',
     tags: ['javascript', 'html', 'css', 'javascript', 'html', 'css'],
@@ -40,7 +40,7 @@ const data = [
   {
     id: 2,
     title: 'Loopstudios landing page',
-    img: './images/screenshot-loopstudios.png',
+    img: './images/screenshots/screenshot-loopstudios.png',
     descriptionPopup: 'Landing page for Loopstudios',
     tags: [
       'JavaScript',
@@ -56,7 +56,7 @@ const data = [
   {
     id: 3,
     title: 'Tip Calculator',
-    img: 'https://raw.githubusercontent.com/anuarshaidenov/tip-calculator/main/images/screenshot.png',
+    img: './images/screenshots/screenshot-calculator.png',
     descriptionPopup:
       'Small app built using Vanilla JS. The calculator functionality will come handy',
     tags: [
@@ -74,7 +74,7 @@ const data = [
   {
     id: 4,
     title: 'Blogr Landing Page',
-    img: './images/screenshot-blogr.png',
+    img: './images/screenshots/screenshot-blogr.png',
     descriptionPopup: 'Landing Page for Blogr',
     tags: [
       'JavaScript',
